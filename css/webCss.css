@@ -1,0 +1,56 @@
+#acc{
+  color: red;
+  cursor: pointer;
+  }
+.hover #acc{
+  color: lightgreen;
+}
+.divImg{
+  width: 1300px;
+  background-color: red;
+
+}
+#img{
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+#wrapper {
+    background-image: url(index.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#wrapper div h1{
+  color: red;
+
+}
+#headH1 span:hover{
+  background-color: black;
+  cursor: pointer;
+}
+#smallScreenNav a{
+  padding: 1em;
+}
+.icon{
+  font-size: 30px !important;
+  padding-bottom: 15px;
+}
+.comments{
+  padding-bottom: 40px;
+  padding-top: 15px;
+}
+.comntBox{
+  margin-bottom:1px!important;
+  color: red;
+
+}.innercomments{
+  padding-top: 10px !important;
+  padding-bottom: 2px;
+}
+
+footer{
+  position: relative;
+  margin-bottom: 0 !important;
+  width: 100%;
+  bottom: -2px !important;
+
+}

@@ -1,0 +1,81 @@
+#databaseFiles{
+  color: red;
+  padding-left: !important 20px;
+}
+#videoTag{
+  height:105px;
+  margin: 15px;
+  padding-top: 25px;
+  margin-top: 0
+
+}
+#videoTag span{
+  height: 40px;
+  margin-left: 40px;
+  width: 40px;
+  padding-top: 9px;
+  padding-right: 0px !important;
+}
+#videoTagSmall{
+  height: 70px;
+  padding-top: 25px;
+}
+#videoTag :first-child{
+  position:relative;
+  -webkit-animation-name: animate-left; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  animation-name: animate-left;
+  animation-duration: 4s;
+  transform: rotate(-25deg);
+}
+@keyframes animate-left{
+  from{left:-300px;opacity:0}
+    to{left:0;opacity:1}
+}
+#videoTag :nth-child(2){
+  position:relative;
+  -webkit-animation-name: animate-bottom; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  animation-name: animate-bottom;
+  animation-duration: 4s;
+}@keyframes animate-bottom {
+  from{bottom:-50px;opacity:0}
+   to{bottom:0;opacity:1}
+}
+
+#videoTag :nth-child(3){
+  position:relative;
+  -webkit-animation-name: animate-right; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  animation-name: animate-right;
+  animation-duration: 4s;
+}@keyframes animate-right {
+  from{right:-300px;}
+    to{right:0;}
+}
+#videoTag :nth-child(4){
+  position:relative;
+  -webkit-animation-name: animate-left; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  animation-name: animate-left;
+  animation-duration: 4s;
+  transform: rotate(-20deg);
+}
+#videoTag :nth-last-child(2){
+  position:relative;
+  -webkit-animation-name: animate-top; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  animation-name: animate-top;
+  animation-duration: 4s;
+}@keyframes animate-top {
+  from{top:-50px;opacity:0}
+   to{top:0;opacity:1}
+}
+#videoTag :last-child{
+  position:relative;
+  -webkit-animation-name: animate-left; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  animation-name: animate-left;
+  animation-duration: 4s;
+  transform: rotate(25deg);
+}

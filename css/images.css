@@ -1,0 +1,62 @@
+body{
+  background-image: url(./images/wood1.jpg);
+  background-position: center;
+
+}.searchImgs{
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 850px;
+}.searchRes{
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin-top: 245px;
+  margin-right: 100px;
+}
+#defaultContent{
+	width:100%;
+	height:250px;
+	margin-top:40px;
+
+}
+#defaultContent h4{
+	font-family: kristen itc;
+	font-size: 40px;
+	font-weight: 20px;
+}
+#links1{
+
+  background-color: black;
+  position: fixed;
+  margin-top:50px;
+  z-index: 23;
+  width: 80px;
+  border-radius: 5%;
+  height: 550px;
+  box-shadow: 10px 10px 30px grey;
+}
+#links, #links1 a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-shadow: 2px 2px 5px #ff0000;
+  padding-top:  57px;
+  padding-bottom:57px;
+  padding-left: 20px;
+
+}
+#links1 a:hover{
+	background-color: red;
+	font-size: 20px;
+}
+#links1 a[title]:hover:after{
+	content: attr(title);
+	height:270px;
+	width:40px;
+}
+.clearfix::after{
+	content:"";
+	clear:both;
+	display:table;
+}
